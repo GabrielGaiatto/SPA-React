@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Serviços extends Component {
     render(){
         return(
-            <div>
-                 <a href="">Serviços</a>
+            <div className="bg-dark, text-light">
+                 <a href="" className="text-light">Serviços</a>
 
             </div>
         );
