@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Serviços extends Component {
+class Jax extends Component {
     render(){
         return(
             <div className="bg-dark, text-light">
-                 <a href="" className="text-light">Serviços</a>
+               <h1>Jax, o Grão Mestre Das Armas</h1>
 
             </div>
         );
     }
 }
-export default Serviços;
+export default Jax;

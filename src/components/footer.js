@@ -11,10 +11,10 @@ class Footer extends Component {
 
         }
     }
-    
+
     render(){
         return(          
-                <footer className="footer, bg-dark, text-light">
+                <footer className="footer text-light">
                     <p>Contato {this.state.contato} - {this.state.email}</p>
                     <p>Copyright@{this.state.ano} - {this.state.autor}</p>
                 </footer>       

@@ -13,7 +13,7 @@ class Sobre extends Component {
         super();
         this.state = {
             text: props.text,
-            name: 'fulanito'
+            name: 'Bem Vindo!'
         };
         this.setName = this.setName.bind(this);
         this.resetName = this.resetName.bind(this);
@@ -21,23 +21,23 @@ class Sobre extends Component {
 
     setName(){
         this.setState({
-            name: 'ciclanildo'
+            name: 'Welcome!'
         });
     }
 
     resetName(){
         this.setState({
-            name: 'Fulanito'
+            name: 'Bem Vindo!'
         });
     }
 
     render(){
         return(
             <div id="sobre" className="bg-dark, text-light">
-              <h1>Sobre</h1>
+              <h1>League Of Legends Wiki</h1>
               <p>{this.state.text}</p>
-              <p>Eu sou o {this.state.name}</p>
-              <button onClick={this.setName}>Mudar Nome</button>
+              <p>{this.state.name}</p>
+              <button onClick={this.setName}>Mudar o Texto para ingles</button> <button onClick={this.resetName}>Resetar o Texto</button>
             </div>
         );
     }

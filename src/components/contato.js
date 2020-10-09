@@ -4,7 +4,7 @@ class Contato extends Component {
     render(){
         return(
             <div className="bg-dark, text-light">
-               <a href="" className="text-light">Contato</a>
+               <a href="" className="text-light"></a>
 
             </div>
         );
